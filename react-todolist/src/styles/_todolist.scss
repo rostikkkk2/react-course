@@ -1,0 +1,33 @@
+.all-todo{
+  background-color: blue;
+  width: 600px;
+  min-height: 130px;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 0 0 16px 16px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.btn-delete-todo{
+  float: right;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 16px;
+}
+
+
+.title-todo{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+
+.input-tasks{
+  width: 70%;
+  color: black;
+}
+.input-edit-todo{
+  background: none;
+  border: none;
+  color: white;
+}

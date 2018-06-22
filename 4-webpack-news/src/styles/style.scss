@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header, footer{
+  width: 100%;
+  height: 70px;
+  background-color: orange;
+}
+
+main{
+  min-height: 500px;
+}
+
+
+.article {
+  width: 80%;
+  margin: 30px auto;
+  .article-author {
+    font-weight: bold;
+  }
+  .article-text {
+    font-style: italic;
+  }
+
+  .article-likes-wrapper {
+    float: right;
+    .article-likes {
+      color: green;
+      margin-right: 10px;
+    }
+    .article-dislikes {
+      color: red;
+    }
+  }
+
+}
